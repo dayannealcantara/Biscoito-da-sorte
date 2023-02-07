@@ -4,14 +4,10 @@ import Botao from "./Botao";
 
 function App() {
   
-
- 
-  
   return (
     <div className="container">
       <img src={biscoito} alt="imagem de um biscoito" className="image"/>
-      <Botao/>  
-     
+      <Botao/>      
     </div>
   );
 }
