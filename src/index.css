@@ -5,9 +5,44 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #ddd;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.image{
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+}
+
+.textoFrase{
+  font-style: italic;
+  color: #dd7b22;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.containerBotao{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.botao{
+  width: 150px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  background-color: #e29f60;
 }
